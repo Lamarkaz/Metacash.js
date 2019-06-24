@@ -1,0 +1,36 @@
+{
+  "name": "metacash",
+  "version": "1.4.0",
+  "description": "Metacash JS library",
+  "main": "lib/index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/lamarkaz/metacash.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/lamarkaz/metacash.js/issues"
+  },
+  "homepage": "https://gitlab.com/lamarkaz/metacash.js#readme",
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.5"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bignumber.js": "^8.1.1",
+    "ethers": "^4.0.27"
+  }
+}
